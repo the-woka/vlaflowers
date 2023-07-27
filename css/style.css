@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(221, 189, 218, 0.8);
+    padding: 1rem 5%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    font-family: "Trajana Sans", sans-serif;
+    font-size: 15px;
+}
+
+.navbar .navbar-left {
+    display: flex;
+    align-items: center;
+    gap: 2em;
+}
+
+.navbar .navbar-left a {
+    color: #000;
+}
+
+.navbar .navbar-left a img {
+    width: auto;
+    height: 5em;
+}
+
+.navbar .navbar-right a {
+    color: #000;
+    letter-spacing: 3px;
+}
+
